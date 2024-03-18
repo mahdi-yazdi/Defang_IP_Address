@@ -12,3 +12,9 @@ ip_address = "192.168.1.1"
 defanged_ip = defang_ip_address(ip_address)
 print("Original IP:",ip_address)
 print("Defanged IP:",defanged_ip)
+
+''' 
+Example Output:
+Original IP: 192.168.1.1
+Defanged IP: 192[.]168[.]1[.]1 
+'''
